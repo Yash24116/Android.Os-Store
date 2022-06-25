@@ -5,9 +5,50 @@
 </head>
 
 <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yash</title>
+    <link rel="stylesheet" href="bhoot.css">
+     
+     
+</head>
+<body>
+  <header>
+    <label  id="dark-change"></label>
+  </header>
+  <main>
+      
+       
+      <div class="respon">
+        <ul>
+         
+            <li><a href="#1">Home</a></li>
+            <li><a href=" jd">About</a></li>
+            <li><a href="mailto:yashpkolhe@gmail.com">Contact</a></li>
+            <li><a href="1/login.html">Links</a></li>
+            <li><a href="https://html.com">Learn</a></li>
+      
+        </ul>
+      </div>
+       
+         
+      
+ 
+              
+ 
+  </main>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
 
 </body>
-
 </html>
 <style>
 body {
