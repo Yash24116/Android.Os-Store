@@ -15,6 +15,7 @@ body{
   img{
     width:50%;
     height:auto;
+    border-radius: 100px;
   }
   p{
     text-align: justify;
